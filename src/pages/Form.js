@@ -8,6 +8,7 @@ import Phone from '../components/Phone';
 import Subject from '../components/Subject';
 import Message from '../components/Message';
 import PrivacyPolicy from '../components/PrivacyPolicy';
+import axios from 'axios';
 
 const useStyles = makeStyles((theme) => ({
 	header: {
@@ -39,7 +40,7 @@ const Form = () => {
 	const methods = useForm();
 	const classes = useStyles();
 	const onSubmit = data => {
-		console.log(data);
+		axios.post('https://60e02dae6b689e001788c959.mockapi.io/api/request/dpg', data);
 	};
 
 	useEffect(() => {

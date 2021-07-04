@@ -101,6 +101,11 @@ const theme = createMuiTheme({
 				}
 			}
 		},
+		MuiInputBase: {
+			root: {
+
+			}
+		},
 		MuiFormHelperText: {
 			root: {
 				marginTop: '0px',
@@ -111,9 +116,28 @@ const theme = createMuiTheme({
 				marginRight: '0px',
 			}
 		},
+		MuiFormLabel: {
+			root: {
+				'&$focused': {
+					color: '#fff'
+				}
+			}
+		},
 		MuiSvgIcon: {
 			fontSizeLarge: {
 				fontSize: '31px'
+			}
+		},
+		MuiCssBaseline: {
+			width: '100%',
+			height: '100%'
+		},
+		MuiInput: {
+			underline: {
+				borderBottom: '1px solid #797ea3 !important',
+				'&$focused': {
+					borderBottom: '1px solid #fff !important',
+				}
 			}
 		}
 	},
