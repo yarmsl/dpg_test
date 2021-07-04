@@ -11,11 +11,13 @@ import PrivacyPolicy from '../components/PrivacyPolicy';
 
 const useStyles = makeStyles((theme) => ({
 	header: {
+		marginTop: '30px',
 		marginBottom: '25px',
 	},
 	form: {
 		width: '389px',
 		padding: '41px 45px',
+		marginBottom: '30px',
 		backgroundColor: theme.palette.background.default,
 		borderRadius: theme.shape.borderRadius,
 		boxShadow: '0px 0px 50px rgba(0, 0, 0, 0.7)',

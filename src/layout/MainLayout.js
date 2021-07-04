@@ -9,8 +9,8 @@ const useStyles = makeStyles(() => ({
 		backgroundRepeat: 'no-repeat',
 		backgroundPosition: 'center center',
 		backgroundSize: 'cover',
-		width: '100vw',
-		height: '100vh',
+		width: '100%',
+		height: 'auto',
 	},
 	container: {
 		width: '100%',

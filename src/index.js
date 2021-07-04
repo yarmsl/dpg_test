@@ -5,6 +5,7 @@ import { ThemeProvider } from '@material-ui/styles';
 import Form from './pages/Form';
 import theme from './UI/theme';
 import MainLayout from './layout/MainLayout';
+import './css/style.css';
 
 ReactDOM.render(
 	<React.StrictMode>
