@@ -129,8 +129,11 @@ const theme = createMuiTheme({
 			}
 		},
 		MuiCssBaseline: {
-			width: '100%',
-			height: '100%'
+			'@global': {
+				width: '100vw',
+				height: '100vh'
+			}
+
 		},
 		MuiInput: {
 			underline: {

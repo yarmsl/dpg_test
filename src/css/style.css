@@ -18,3 +18,8 @@ textarea:-webkit-autofill:active {
     -webkit-box-shadow: 0 0 0 40px #171929 inset !important;
     -webkit-text-fill-color: #797ea3 !important;
 }
+
+html, body, #root {
+	width: 100vw;
+	height: 100vh;
+}
